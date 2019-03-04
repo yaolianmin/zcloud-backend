@@ -1,0 +1,270 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: #fff;
+    }
+    .conditions{
+      /*  border:2px solid blue;*/
+        margin-top: 40px;
+        
+       /* height: 200px;*/
+    }
+    .log_type{
+        width: 100%;
+        height: 30px;
+        border: 1px solid black;
+        border-radius: 6px;
+        overflow: hidden;
+    }
+    .log_type span{
+        display: inline-block;
+        float: left;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .log_type .log_type_one{
+        width: 20%;
+        background-color: #007DB8;
+        color: #fff;
+    }
+    .log_type_two ul li{
+      width: 16.6%;
+     
+    }
+    .log_type_two1 ul li{
+      width: 16.6%;
+     
+    }
+    .log_type .sun{
+        width: 5%;
+        height: 30px;
+        margin-top: -2px;
+        background-color: #007DB8;
+        float: right;
+        color: #fff;
+        cursor: pointer;
+
+    }
+    .log_type .log_type_two,.log_type .log_type_two1{
+        width: 75%;
+       /* border:1px solid red;*/
+    }
+    .log_type_content{
+      float: right;
+      width: 80%;
+      height: 84px;
+      border:1px solid #ccc;
+      margin-bottom: 20px;
+      display: none;
+    }
+    .log_type_contents li{
+      display: none;
+    }
+    .log_type_content2s li{
+      display: none;
+    }
+    .reset{
+      position: relative;
+      left: 50%;
+      margin-left: -75px; 
+      width: 250px;
+      height: 40px;
+      float: left;
+       margin-top: 18px; 
+    }
+    .reset input{
+      margin-right: 10px;
+      height: 30px;
+      line-height: 13px;
+    }
+    .log_type_content2{
+      float: right;
+      width: 80%;
+      height: 84px;
+      border:1px solid #ccc;
+      display:none;
+    }
+    .number_two{
+        margin-top: 20px;
+    }
+    .log_type_content ul label {
+        float: right;
+        padding-top: 8px;
+        width: 16.32%;
+       /* border:1px solid red;*/
+    
+    }
+    .log_type_content2 ul label {
+        float: right;
+        padding-top: 8px;     
+        width: 33%;
+       /* border: 1px solid red;*/
+        text-align: center;
+    }
+   .people_kind{
+      margin-top: 40px;
+      float: left;
+      width: 100%;
+      /*border:1px solid red;*/
+   }
+    #select{
+      /* border: 1px solid red;*/
+       width: 260px;
+       margin-bottom: 10px;
+
+    }
+     #select span{
+        display: block;
+        margin-left: 2px;
+
+     }
+     #select select{
+        width: 110px;
+        margin-left: 50px;
+        background-color:  #007DB8;
+        color: #fff;
+        cursor: pointer;
+        height: 24px;
+       
+     }
+
+    .log_content{
+       font-size: 12px;
+        overflow: hidden;
+    }
+     .log_content .blue{
+        background-color: #007DB8;
+        color: #fff;
+     }
+    .log_content table{
+        width:100%;
+        text-align: center;
+        background-color: #fff;
+        color: #0f0f11;
+    }
+    .log_content table tr td{
+        height: 30px;
+        border-color: #ccc;
+        font-style: normal;
+        font-weight: normal;
+        color: #0f0f11;
+        font-size: 14px;
+    }
+    .records{
+        width: 250px;
+        float: left;
+        margin-top: 4px;
+        overflow: hidden;
+        /*border: 1px solid red;*/
+    }
+    .records span{
+        margin-right: 20px;
+    }
+    
+    .buttons{
+        margin-top: 20px;
+        width: 100%;
+        overflow: hidden;
+       /*border: 1px solid red;*/
+
+    }
+    .buttons .export{
+        margin-top: 10px;
+        float: left;  
+        width: 100px;
+        height: 30px;
+        line-height: 14px;
+    }
+    .buttons li{
+      display: none;
+    }
+    .buttons #images{
+      width: 35px;
+      height: 35px;
+      float: left;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    .buttons #tips{
+      margin-top: 10px;
+      float: left;
+      height: 30px;
+      width: 100px;
+      margin-left: 1px;
+      line-height: 36px;
+      color:green;
+     /* border: 1px solid red;*/
+    }
+    .set_option{
+        width:520px;
+       /* border: 1px solid red;*/
+        margin:0 auto; 
+        overflow: hidden;
+        background-color:#fff;
+    }
+     .set_option .width{
+        width:410px;
+        height: 34px;
+       /*border: 1px solid red;*/
+        margin-left: 70px;
+     }
+   
+    .log_{
+        float: left;
+    }
+    .set_option .log_ranks{
+        float: right;
+        width: 90px;
+        margin-left: 20px;
+        overflow: hidden;
+        /*border: 1px solid red;*/
+    }
+    .set_option .log_ranks span{
+        margin-left: 6px;
+    }
+
+    .set_option .width2{
+        width:410px;
+        height:54px;
+       /*border: 1px solid yellow;*/
+        margin-left:70px;
+     }
+    .set_option .width3{
+        width:430px;
+        height:40px;
+       /* border: 1px solid blue;*/
+        margin-left: 70px;
+        background-color:#fff;
+    }
+    .set_option .width3 input{
+        margin-left: 30px;
+        text-align: center;
+    }
+    .set_option .sure{
+        width: 70px;
+
+    }
+    .set_option .cancel{
+        width: 70px;
+        margin-left: 200px;
+    }
+    .set_option .width4{
+         margin-left: 70px;
+          width:430px;
+          height:40px;
+    }
+   
+    .buttons .pagination{
+      float: right;
+      margin-top: 10px;
+
+    }
+    .buttons .pagination span{
+      font-size: 13px;
+    }
+    .buttons .pagination a{
+      font-size: 13px;
+    } 

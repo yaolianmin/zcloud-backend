@@ -1,0 +1,150 @@
+.abc {
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.abc-5,.contact-button{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+  position：relative；
+  left：50%
+  margin-left:xx px;
+}
+
+
+.input-group1 {
+    display: inline-table;
+    vertical-align: middle;
+  }
+
+
+  .input-group1 {
+  float: left;
+}
+
+.input-group1 {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+
+
+.input-group-addon1{
+  width: 1%;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.input-group-addon1 {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1;
+  color: #555;
+  text-align: center;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+
+
+
+.search_select {
+  position: relative;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.d1 input {
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  outline: none;
+}
+.d1 button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 50px;
+  height: 30px;
+  border: 1px solid #000000;
+  background: #007DB8;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+div.condition_search {padding: 10px 0}
+
+#device_type {
+  position: relative;
+  /*width: 700px;
+  margin: 0 auto;*/
+}
+
+#type_name{
+  position: absolute; 
+  top: 0;
+  left: 0px;
+  width: 200px;
+  height: 30px;
+  border: 1px solid #000000;
+  background: #007DB8;
+  border-radius: 5px 0 0 5px;
+  cursor: pointer;
+  text-align:center;
+  font-size: 15px;
+  color:white;
+}
+/*.d1 {background: #A3D0C3;}*/
+.d2 input {
+  border: 1px solid #000000;
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 5px;
+  outline: none;
+  text-align:center;
+}
+
+#select_device_type{
+  text-indent: 200px;
+}
+.d2 button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 50px;
+  height: 30px;
+  border: 1px solid #000000;
+  background: #007DB8;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.d2 button:before {
+  content: "\f013";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}
+
+
+
+.from-css-1{
+
+padding-right: 15px;
+padding-left: 15px;
+
+}
+
+.help-block{
+  margin-left:0px;
+}
+

@@ -1,0 +1,138 @@
+ *{
+    padding: 0;
+    margin: 0;
+  }
+  html.body{
+    position: relative;
+    margin :0px;
+    height: 100%;
+  }
+  .logo{
+    width: 100%;
+    height: 40px;
+    background-color: #007DB8;
+  }
+  .logo img{
+      height: 40px;
+    margin-left: 6%;
+  }
+  .right{
+      margin-right: 2%;
+      float: right;
+      margin-top: 0.5%;
+      width: 260px;
+     /* border: 1px solid red;*/
+  }
+  .quit{
+     float: right;
+      background-color: #fff;
+      margin-right: 0px;
+      width: 70px;
+      height: 24px;
+      border-radius: 50%;  
+  }
+  #language{
+    width: 100px;
+    height: 24px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 0px;
+    text-align:center;
+    border: none;
+  }
+  .language option{
+    border: none;
+    text-align: center;
+  }
+  .info{
+    /*border: 1px solid red;*/
+    position: absolute;
+    height: 30px;
+    width:100%;
+    background-color: #007DB8;
+  }
+  .info ul{
+   /* border: 1px solid red;*/
+    list-style: none;
+  }
+  .info .user li{
+    float: left;
+    font-size: 13px;
+    height: 28px;
+    width: 110px; 
+    color: #fff;
+    line-height: 28px;
+    text-align: center;
+    /*border: 1px solid red;*/
+    margin-left: -10px;
+  }
+  .info .user .user-centos,#show{
+    width:160px;
+  }
+  .info ul li:hover{
+    font-size: 14px;
+    cursor: pointer;
+    background-color: rgba(51,81,188,0.6);
+  }
+  .user{
+    margin-left: 6%;
+    float: left;
+  }
+
+  #page_container .item{
+     float: right;
+     width: 425px;
+     height: 30px;
+    /*border: 1px solid red;*/
+    }
+    .item .main{
+      visibility:hidden; 
+    }
+    .item li{
+      width: 140px;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+      color: #fff;
+      /*border:0.5px solid #000;*/
+      border-top: none;
+      border-bottom: none;
+      border-right: none;
+
+    }
+    .item .it:hover{
+      font-size: 16px;
+    }
+   
+    #page_container .foot{
+      font-size: 14px;
+      color: #6c6c6c;
+      float: right;
+      margin-right: 30px;
+  }
+  #page_container .items{
+     width: 140px;
+     position: relative;
+     top:0px;
+     left: 140px;
+     z-index: 22;
+     display: none;
+    border: none;
+  }
+  .info .item li:hover{
+    color: #fff;
+    cursor: pointer;
+    background-color: rgba(51,81,188,0.6);
+  }
+  .items li{
+    float: left;
+    border-top: none;
+    width: 140px;
+    color: #0078B0;
+    background-color: #fff;
+  }
+  
+  
+ 
+
+ 

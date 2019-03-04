@@ -1,0 +1,258 @@
+* {box-sizing: border-box;}
+body{margin: 0;}
+.center{
+	position: relative;
+	/*width: 700px;*/
+	width:100%;
+	margin: 0 auto;
+}
+div.search {
+	padding: 30px 0;
+}
+.search_select {
+  position: relative;
+  /*width: 700px;*/
+  width:100%;
+  margin: 0 auto;
+}
+
+.d1 input {
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  outline: none;
+}
+.d1 button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 50px;
+  height: 30px;
+  border: 1px solid #000000;
+  background: #007DB8;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.d1 button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}
+
+div.condition_search {padding: 10px 0}
+
+#device_type {
+  position: relative;
+  /*width: 700px;
+  margin: 0 auto;*/
+}
+
+#type_name{
+  position: absolute; 
+  top: 0;
+  left: 0px;
+  width: 200px;
+  height: 30px;
+  border: 1px solid #000000;
+  background: #007DB8;
+  border-radius: 5px 0 0 5px;
+  cursor: pointer;
+  text-align:center;
+  font-size: 15px;
+  color:white;
+}
+/*.d1 {background: #A3D0C3;}*/
+.d2 input {
+  border: 1px solid #000000;
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 5px;
+  outline: none;
+  text-align:center;
+}
+
+#select_device_type{
+	text-indent: 200px;
+}
+.d2 button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 50px;
+  height: 30px;
+  border: 1px solid #000000;
+  background: #007DB8;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.d2 button:before {
+  content: "\f013";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}
+
+#select_card_type{
+	text-indent: 200px;
+}
+
+.d3 input {
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  outline: none;
+  text-align:center;
+}
+.d3 button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 50px;
+  height: 30px;
+  border: 1px solid #000000;
+  background: #007DB8;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.d3 button:before {
+  content: "\f013";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}
+
+#select_application_scenarios{
+	text-indent: 200px;
+}
+
+.d4 input {
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  outline: none;
+  text-align:center;
+}
+.d4 button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 50px;
+  height: 30px;
+  border: 1px solid #000000;
+  background: #007DB8;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.d4 button:before {
+  content: "\f013";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}
+
+.condition{
+	margin-left:200px;
+	width: 71%;
+	height: 30px;
+	border:1px solid #ccc;
+}
+
+.condition_list_1{
+	text-align:right;
+}
+
+tr.condition_list_1 > td > label > input{
+	margin: 5px 0 0;/*使 checkbox上下居中*/
+}
+
+tr.condition_list_1 > td > span{
+	float:right;
+	margin: 10px 100px 0 0;
+}
+
+.condition_list_2{
+	text-align:right;
+}
+
+tr.condition_list_2 > td > label > input{
+	margin: 5px 0 0;/*使 checkbox上下居中*/
+}
+
+tr.condition_list_2 > td > span{
+	float:right;
+	margin: 10px 50px 0 0;
+}
+
+.condition_list_3{
+	text-align:right;
+}
+
+tr.condition_list_3 > td > label > input{
+	margin: 5px 0 0;/*使 checkbox上下居中*/
+}
+
+tr.condition_list_3 > td > span{
+	float:right;
+	margin: 10px 80px 0 0;
+}
+
+.d2 label {
+	width:16px;
+    cursor: pointer;
+}
+
+.d3 label {
+	width:16px;
+    cursor: pointer;
+}
+
+.d4 label {
+	width:16px;
+    cursor: pointer;
+}
+
+.header{
+	/*width: 700px;*/
+	width:100%;
+	height: 30px;
+	text-align:center;
+	background: #007DB8;
+	color:white;
+}
+
+.list_line{
+	/*width: 700px;*/
+	width:100%;
+	height: 30px;
+	text-align:center;
+}
+
+.uded{
+  width: 172px;
+  height: 30px;
+  border: 1px solid #000000;
+  background: #007DB8;
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+  text-align:center;
+  font-size: 15px;
+  color:white;
+}
+
+.info_header{
+	height: 30px;
+	font-size: 15px;
+	color:white;
+	text-align:center;
+	background: #007DB8;
+	border: #000000 1px solid;
+}
+

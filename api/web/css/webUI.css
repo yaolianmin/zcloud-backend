@@ -1,0 +1,89 @@
+li {
+	list-style: none;
+	float: left;
+	
+}
+ul li a {
+	text-decoration: none;
+	font:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	color: #FFF;
+	text-align: center;
+}
+select {
+	float: left;
+	margin-left: 90%;
+	margin-top: -20px;
+	border-style: hidden;
+}
+#company_logo {
+	padding: 0 0 0 0px;		
+}
+#signup_link {
+
+}
+#login_link {
+
+}
+#page_header {
+	height: 65px;
+	background-color: #0871BD;
+	width: 60%;
+	margin-left: 20%;
+}
+#page_header li {
+	list-style: none;
+	float: left;
+	padding-left: 0px;
+}
+#page_header ul {
+	padding-left: 0px;
+}
+#signup_li {
+	float: left;
+	margin-left: 60%;
+	margin-top: 20px;
+}
+#login_li {
+	float: left;
+	margin-left: 70%;
+	margin-top: -20px;
+}
+#page_menu {
+	height: 40px;
+	width:  auto;
+	background: #999;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 60%;
+	margin-left: 20%;
+}
+#page_menu li {
+	margin-right: 5%;
+	width: 15%;
+	margin-top: 10px;
+	text-align: center;
+	height: 100%; 
+
+}
+#page_menu ul {
+	height: 100%;
+	margin-left: 10%;
+}
+#page_content {
+	height: auto;
+	width:  auto;
+	background: #FFF;
+	width: 60%;
+	margin-left: 20%;
+}
+#page_footer {
+    position: fixed;
+    bottom: 0px;
+	width: 100%;
+
+}
+#page_container {
+	height: 100%;
+	width: 100%;
+}
